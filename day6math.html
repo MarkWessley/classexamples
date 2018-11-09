@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Math</title>
+	</head>
+	<script>
+		function getRandom()
+		{
+			var txt = document.getElementById("mynumber");
+			txt.value = Math.floor((Math.random() * 6) + 1);
+		}
+	</script>
+	<body>
+		<input type="text" id="mynumber" />
+		<button onclick="getRandom()">Generate a Random Number</button>
+	</body>
+</html>
